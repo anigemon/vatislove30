@@ -74,4 +74,6 @@ Send my loVe!
 
 </div>
 
+<input type="hidden" name="redirect" value="https://anigemon.github.io/vatislove30/thanks.html">
+
 </form>
