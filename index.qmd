@@ -16,8 +16,4 @@ We are currently trying to decide on a venue, so it would be most helpful if you
 
 Three decades, three stops. So what else is on the menu, you might ask?
 
-<center>
-
-[Itinerary](itin.qmd){.btn .btn-lg .btn-primary role="button"}
-
-</center>
+<center>[Itinerary](itin.qmd){.btn .btn-lg .btn-primary role="button"}</center>
