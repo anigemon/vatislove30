@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "VatisV(loVe)"
+  navbar:
+    logo: "images/logo.png"
+    left:
+      - href: index.qmd
+        text: Invitation
+      - text: Itinerary
+        menu:
+          - text: Brussels (7-15 Feb)
+            file: itin_1.qmd
+          - text: Budapest (15-18 Feb)
+            file: itin_2.qmd
+          - text: Norway (18-23 Feb)
+            file: itin_3.qmd
+      - href: about.qmd
+        text: RSVP  
+
+format:
+  html:
+    theme: vapor
+    css: styles.css
+    toc: true
+
+editor: visual
+

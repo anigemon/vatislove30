@@ -1,0 +1,15 @@
+{
+  "hash": "3946b743f68e08fd06e80240add9f449",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\n---\n\n::: {.cell}\n\n:::\n\n\n# Stage II: Budapest (15-18 February)\n\nA group of lovely people and moi will be arriving to Budapest (flight-deities-willing) airport at 19:55 on 15 February.  \n\n<center><span class=\"badge bg-primary\">Tentative itinerary:</span></center>\n\n**15 Feb** - Saturday\n\n  - 21:00: Hungarian Street Food/Snacks in central Budapest\n  - 22:00 onwards: Experiantial Immersion into Hungarian nightlife\n\n**16 Feb** - Sunday\n\n  - Morning/Early afternoon: Budapest sightseeing tour à la K&V with lunch in Hungarian Restaurant<a href=\"#fn1\" class=\"footnote-ref\" role=\"doc-noteref\" aria-expanded=\"false\"><sup>1</sup></a>\n  - Evening: Iceskating in [Budapest Central Park (Városliget)](https://mujegpalya.hu/)\n\n**17 Feb** - Monday\n\n  - Morning/Early afternoon: Thermal bath Recovery & Rejuvenation<a href=\"#fn1\" class=\"footnote-ref\" role=\"doc-noteref\" aria-expanded=\"false\"><sup>1</sup></a>  \n\n**18 Feb** - Tuesday\n\n  - Departure to Oslo\n\nKoni and I will be taking the following flight to Oslo with a layover in Zurich:\n\n```{=html}\n<center>\n<span class=\"badge bg-primary\"><p><strong>LX 2253 (BUD-ZRH)</strong><br>18 February<br>06:15</p><p><strong></strong>LX 1210 (ZRH-OSL)<br>09:40 - 12:10</p></span>\n</center>\n```\n\n<br>\n<center>[Norway Itinerary](itin_3.qmd){.btn .btn-lg .btn-primary role=\"button\"}</center>\n\n--------------\nSome further notes:\n  \n  - The above is a tentative itinerary, very much subject to change and open to suggestions, requests and comments.\n  - As always, I would love to see as much of you as possible. That does not mean you should feel any pressure or obligation to be joining for any particular event.\n  - Between Koni & I, we are able to host 7 people. Please let us know bilaterally if you would like to be one of them, and we will do our best to accommodate you <3 \n\n\n```{=html}\n<footer>\n  <ol  style=\"padding-left: 1rem;\">\n    <li id=\"fn1\"><p>Sightseeing tour and bathing might be switched depending on weather conditions. February is the hardest month in Budapest :).</p></li>\n  </ol>\n</footer>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

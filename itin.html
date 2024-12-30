@@ -95,10 +95,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Invitation</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./itin.html" aria-current="page"> 
-<span class="menu-text">Itinerary</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-itinerary" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Itinerary</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-itinerary">    
+        <li>
+    <a class="dropdown-item" href="./itin_1.html">
+ <span class="dropdown-text">Brussels (7-15 Feb)</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./itin_2.html">
+ <span class="dropdown-text">Budapest (15-18 Feb)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./itin_3.html">
+ <span class="dropdown-text">Norway (18-23 Feb)</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">RSVP</span></a>
@@ -134,14 +149,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="stage-i-brussels-8-15-february" class="level1">
 <h1>Stage I: Brussels (8-15 February)</h1>
 <p>Don’t believe in celebrating off-date? Want to come get a tattoo with me? Interested in sharing a good beer (or consuming other substances)? Want to meet the lovely people who make me miss Belgium daily? Then this stage is for you! The only set event is the fête on THE day, so we will have plenty of opportunities to catch up in the run-up to the celebration.</p>
+<center>
+<a href="./itin_1.html" class="btn btn-lg btn-primary" role="button">Brussels Itinerary</a>
+</center>
 </section>
 <section id="stage-ii-budapest-15-18-february" class="level1">
 <h1>Stage II: Budapest (15-18 February)</h1>
 <p>Want to take a splash in the thermal baths? Curious about my origin story? Want to see what it feels like to live in the EU’s pet dictatorship? Love ruin bars? Would you like to enjoy the hospitality of my mother? Then this stage is for you!</p>
+<center>
+<a href="./itin_2.html" class="btn btn-lg btn-primary" role="button">Budapest Itinerary</a>
+</center>
 </section>
 <section id="stage-iii-norway-18-23-february" class="level1">
 <h1>Stage III: Norway (18-23 February)</h1>
 <p>Miss snow and have a hole in your heart left by the retreat of real winters in Europe? Want to hang out in nature and get a glimpse of Norwegian mountains? Interested in joining the caravan at the stage with greater emphasis on contemplation? Want to try out skiing and/or snowshoeing? Then this stage is for you!</p>
+<center>
+<a href="./itin_3.html" class="btn btn-lg btn-primary" role="button">Norway Itinerary</a>
+</center>
+<hr>
 <p>As mentioned, you’re invited to come to all three, come to one, come for a day, or drop by for an hour. Bring whomever you would like, let’s share the love! Just let me know who is coming so we can make sure everyone is provided for. <a href="./about.html" class="text-secondary">Check out the RSVP page</a> to indicate your interest in any of the stages, and we can hammer out details together. More information on the itinerary will come shortly (keep your eyes peeled)!</p>
 <p>Any questions or clarifications? Just reach out. VatisV(loVe)? Come and find out! Baby, nobody shall get hurt!<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 
@@ -236,7 +261,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/anigemon\.github\.io\/vatislove30\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

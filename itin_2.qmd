@@ -1,0 +1,61 @@
+---
+title: ""
+---
+
+```{r}
+#| echo: false
+
+gen_fn <- function(n, id) {
+  # n is number of footnote
+  # id is a unique id for that footnote
+  paste0('<a href="#',id, '" class="footnote-ref" role="doc-noteref" aria-expanded="false"><sup>', n, '</sup></a>')
+}
+```
+
+# Stage II: Budapest (15-18 February)
+
+A group of lovely people and moi will be arriving to Budapest (flight-deities-willing) airport at 19:55 on 15 February.  
+
+<center><span class="badge bg-primary">Tentative itinerary:</span></center>
+
+**15 Feb** - Saturday
+
+  - 21:00: Hungarian Street Food/Snacks in central Budapest
+  - 22:00 onwards: Experiantial Immersion into Hungarian nightlife
+
+**16 Feb** - Sunday
+
+  - Morning/Early afternoon: Budapest sightseeing tour à la K&V with lunch in Hungarian Restaurant`r gen_fn(1, "fn1")`
+  - Evening: Iceskating in [Budapest Central Park (Városliget)](https://mujegpalya.hu/)
+
+**17 Feb** - Monday
+
+  - Morning/Early afternoon: Thermal bath Recovery & Rejuvenation`r gen_fn(1, "fn1")`  
+
+**18 Feb** - Tuesday
+
+  - Departure to Oslo
+
+Koni and I will be taking the following flight to Oslo with a layover in Zurich:
+```{=html}
+<center>
+<span class="badge bg-primary"><p><strong>LX 2253 (BUD-ZRH)</strong><br>18 February<br>06:15</p><p><strong></strong>LX 1210 (ZRH-OSL)<br>09:40 - 12:10</p></span>
+</center>
+```
+<br>
+<center>[Norway Itinerary](itin_3.qmd){.btn .btn-lg .btn-primary role="button"}</center>
+
+--------------
+Some further notes:
+  
+  - The above is a tentative itinerary, very much subject to change and open to suggestions, requests and comments.
+  - As always, I would love to see as much of you as possible. That does not mean you should feel any pressure or obligation to be joining for any particular event.
+  - Between Koni & I, we are able to host 7 people. Please let us know bilaterally if you would like to be one of them, and we will do our best to accommodate you <3 
+
+```{=html}
+<footer>
+  <ol  style="padding-left: 1rem;">
+    <li id="fn1"><p>Sightseeing tour and bathing might be switched depending on weather conditions. February is the hardest month in Budapest :).</p></li>
+  </ol>
+</footer>
+```
